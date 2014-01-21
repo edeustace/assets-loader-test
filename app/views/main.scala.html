@@ -1,0 +1,18 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        @Html(views.Helper.loader.css("stylesheets/prizeo")("stylesheets").body)
+        @views.Helper.loader.scripts("javascripts/prizeo")(
+            "javascripts/jquery-1.9.0.min.js",
+            "javascripts/test.js"
+        )
+
+    </head>
+    <body>
+        @content
+    </body>
+</html>
