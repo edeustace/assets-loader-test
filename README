@@ -1,4 +1,8 @@
-This is your new Play application
-=====================================
+It's generic play 2.2.1 application with these changes:
 
-This file will be packaged with your application, when using `play dist`.
+- added dependency for assets-loader (project/Build.scala)
+- changed default route for assets in routes file
+- created Helper for templates (views/Helper.scala)
+- added assetsLoader.conf
+- added css and javascript loader in main.scala.html
+- added new css and javascript file for testing purposes
