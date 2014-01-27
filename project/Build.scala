@@ -15,7 +15,7 @@ object ApplicationBuild extends Build {
     cache
   )
 
-  val assetsLoader = "com.ee" %% "assets-loader" % "0.11.4"
+  val assetsLoader = "com.ee" %% "assets-loader" % "0.11.6"
   val assetsLoaderReleases = "ed eustace" at "http://edeustace.com/repository/releases"
 
   val main = play.Project(appName, appVersion, appDependencies).settings(
